@@ -1,0 +1,13 @@
+langchain
+langchain-openai
+langchain-google-genai
+langchain-community
+langchain-ollama
+langgraph
+langgraph-checkpoint-sqlite
+langfuse
+python-dotenv
+duckduckgo-search
+requests
+trafilatura
+scrapling[fetchers]

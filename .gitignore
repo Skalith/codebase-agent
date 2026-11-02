@@ -1,0 +1,63 @@
+# Secrets and credentials
+.env
+.env.*
+!.env.example
+apikey.txt
+apiKeys.txt
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+.eggs/
+build/
+dist/
+pip-wheel-metadata/
+.mypy_cache/
+.ruff_cache/
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+
+# Runtime state
+.checkpoints.sqlite
+.checkpoints.sqlite-*
+*.sqlite
+*.sqlite3
+*.db
+*.db-journal
+*.log
+
+# Node tooling
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS and editors
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Observability and agent caches
+.langfuse/
+.cache/
